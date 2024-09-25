@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+.header-text h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+.header-text h3 {
+    font-size: 1.2em;
+    color: #777;
+    margin: 0;
+}
+.content, .extra-section, .contact-achievements {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Habilidades */
+.box-habilidades {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: ;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box-habilidades h2 {
+    text-align: end;
+    color: #333;
+}
+
+/* Perfil */
+.box-perfil {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box-perfil h2 {
+    color: #333;
+}
+
+/* Formacao */
+.box-formacao {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box-formacao h2 {
+    text-align: end;
+    color: #333;
+}
+
+/* Experiencia */
+.box-experiencia {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box-experiencia h2 {
+    color: #333;
+}
+
+
+.box p, .box ul {
+    color: #666;
+}
+
+/* Contato */
+.box-contato {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box-contato h2 {
+    text-align: end;
+    color: #333;
+}
+
+/* Realizações */
+.box-realizacoes {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box-realizacoes h2 {
+    color: #333;
+}
+
+
+.box p, .box ul {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
