@@ -1,0 +1,33 @@
+header
+{
+    width: 100%;
+    background-color: rgb(17, 17, 48);
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+    background-color: rgb(179, 174, 174);
+    text-align: end;
+    padding: 25px;
+}
+
+.info {
+    padding: 25px;
+}

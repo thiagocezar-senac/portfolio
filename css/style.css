@@ -9,13 +9,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px auto;
-    padding: 20px;
+    
     max-width: 900px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.container-infos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -24,7 +36,8 @@ body {
 .header img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
     margin-right: 20px;
 }
 .header-text {
@@ -41,12 +54,13 @@ body {
     color: #777;
     margin: 0;
 }
-.content, .extra-section, .contact-achievements {
+
+/* .content, .extra-section, .contact-achievements {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;
-}
+} */
 
 /* Habilidades */
 .box-habilidades {
@@ -64,7 +78,7 @@ body {
 
 /* Perfil */
 .box-perfil {
-    flex: 1;
+    flex: 2;
     margin: 10px;
     padding: 20px;
     background-color: #fff;
