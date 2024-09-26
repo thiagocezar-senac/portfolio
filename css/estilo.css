@@ -1,11 +1,22 @@
+body {
+    width: 50%;
+    align-self: center;
+}
+
 header
 {
     width: 100%;
-    background-color: rgb(17, 17, 48);
+    height: 400px;
+    background-color: rgb(25, 35, 46);
     display: flex;
     justify-content: flex-start;
     gap: 30px;
     
+}
+
+header img {
+    padding: 0px;
+    height: 500px;
 }
 
 .titulo{
@@ -23,11 +34,12 @@ header
 }
 
 .sidebar {
-    background-color: rgb(179, 174, 174);
+    background-color: rgb(199, 210, 205);
     text-align: end;
-    padding: 25px;
+    padding: 28px;
+    width: 91%;
 }
 
 .info {
-    padding: 25px;
+    padding: 28px 28px 28px 50px;
 }
